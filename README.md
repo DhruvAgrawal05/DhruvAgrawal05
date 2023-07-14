@@ -1,39 +1,10 @@
-import Vue from "vue";
-import App from "./App.vue";
-import Typewriter from "typewriter-effect/dist/core";
-import GraphemeSplitter from "grapheme-splitter";
-
-Vue.config.productionTip = false;
-
-new Vue({
-  render: h => h(App)
-}).$mount("#app");
-
-const innerdemo = document.getElementById("inner-demo-2");
-
-const stringSplitter = string => {
-  const splitter = new GraphemeSplitter();
-  return splitter.splitGraphemes(string);
-};
-
-const typewriter = new Typewriter(innerdemo, {
-  loop: true,
-  delay: 45,
-  stringSplitter
-});
-
-typewriter
-  .typeString("Hi, I'm Dhruv 👋")
-  .pauseFor(1000)
-  .deleteAll()
-  .typeString("I'm a 🚀 Software Developer 🚀")
-  .pauseFor(1000)
-  .deleteAll()
-  .typeString("I’m currently working on Cloud Computing")
-  .pauseFor(1000)
-  .deleteAll()
-  .start();
-
+<iframe src="https://codesandbox.io/embed/github-profile-2ijk7?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Github profile"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+   
 # 💫 About Me:
 🔭 I’m currently working on Cloud Computing<br>🌱 I’m a Software Developer.<br>👯 I’m looking to collaborate with other Developers<br>🥅 2023 Goals: Learn and try new things<br>🧗 I try to: Explore new paths and push my limit
 
