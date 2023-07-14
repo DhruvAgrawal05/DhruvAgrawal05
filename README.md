@@ -1,3 +1,38 @@
+import Vue from "vue";
+import App from "./App.vue";
+import Typewriter from "typewriter-effect/dist/core";
+import GraphemeSplitter from "grapheme-splitter";
+
+Vue.config.productionTip = false;
+
+new Vue({
+  render: h => h(App)
+}).$mount("#app");
+
+const innerdemo = document.getElementById("inner-demo-2");
+
+const stringSplitter = string => {
+  const splitter = new GraphemeSplitter();
+  return splitter.splitGraphemes(string);
+};
+
+const typewriter = new Typewriter(innerdemo, {
+  loop: true,
+  delay: 45,
+  stringSplitter
+});
+
+typewriter
+  .typeString("Hi, I'm Dhruv 👋")
+  .pauseFor(1000)
+  .deleteAll()
+  .typeString("I'm a 🚀 Software Developer 🚀")
+  .pauseFor(1000)
+  .deleteAll()
+  .typeString("I’m currently working on Cloud Computing")
+  .pauseFor(1000)
+  .deleteAll()
+  .start();
 
 # 💫 About Me:
 🔭 I’m currently working on Cloud Computing<br>🌱 I’m a Software Developer.<br>👯 I’m looking to collaborate with other Developers<br>🥅 2023 Goals: Learn and try new things<br>🧗 I try to: Explore new paths and push my limit
