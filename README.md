@@ -1,10 +1,6 @@
-<iframe src="https://codesandbox.io/embed/github-profile-2ijk7?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="Github profile"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
-   
+<p align="center">
+  <img src="https://github.com/DhruvAgrawal05/DhruvAgrawal05/blob/main/dhruv.gif" alt="Hi, I'm Dhruv 👋 I'm a 🚀 Software Developer 🚀 I’m currently working on Cloud Computing ">
+</p>
 # 💫 About Me:
 🔭 I’m currently working on Cloud Computing<br>🌱 I’m a Software Developer.<br>👯 I’m looking to collaborate with other Developers<br>🥅 2023 Goals: Learn and try new things<br>🧗 I try to: Explore new paths and push my limit
 
