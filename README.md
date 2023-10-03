@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/DhruvAgrawal05/DhruvAgrawal05/blob/main/dhruv.gif" alt="Hi, I'm Dhruv 👋 I'm a 🚀 Software Developer 🚀 I’m currently working on Cloud Computing ">
+  <img src="https://github.com/DhruvAgrawal05/DhruvAgrawal05/blob/main/dhruv.gif" alt="Hi, I'm Dhruv 👋 I'm a 🚀 Software Developer 🚀 I’m currently working on Cloud Computing">
 </p>
 # 💫 About Me:
 🔭 I’m currently working on Cloud Computing<br>🌱 I’m a Software Developer.<br>👯 I’m looking to collaborate with other Developers<br>🥅 2023 Goals: Learn and try new things<br>🧗 I try to: Explore new paths and push my limit
